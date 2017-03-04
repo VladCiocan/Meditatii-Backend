@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Created by dioni on 2/22/2017.
+ * Created by Ciocan Vlad Florin on 2/22/2017.
  */
 @WebServlet(name = "ServletLogin")
 public class ServletLogin extends HttpServlet {
