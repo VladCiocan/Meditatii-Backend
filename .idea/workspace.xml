@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fd88653-f894-41a4-8e00-b8d98e33b94e" name="Default" comment="" />
+    <list default="true" id="1fd88653-f894-41a4-8e00-b8d98e33b94e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Apis/ServletLogin.class" afterPath="$PROJECT_DIR$/target/classes/Apis/ServletLogin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Apis/ServletMaterie.class" afterPath="$PROJECT_DIR$/target/classes/Apis/ServletMaterie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Apis/ServletMeditatie.class" afterPath="$PROJECT_DIR$/target/classes/Apis/ServletMeditatie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Apis/ServletProfesor.class" afterPath="$PROJECT_DIR$/target/classes/Apis/ServletProfesor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Apis/ServletProgramare.class" afterPath="$PROJECT_DIR$/target/classes/Apis/ServletProgramare.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Apis/ServletTransaction.class" afterPath="$PROJECT_DIR$/target/classes/Apis/ServletTransaction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Apis/ServletUser.class" afterPath="$PROJECT_DIR$/target/classes/Apis/ServletUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/MaterieController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/MaterieController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/MeditatieController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/MeditatieController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/ProfesorController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/ProfesorController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/ProgramareController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/ProgramareController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/TransactionController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/TransactionController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/UserController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/Materie.class" afterPath="$PROJECT_DIR$/target/classes/Entities/Materie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/Meditatie.class" afterPath="$PROJECT_DIR$/target/classes/Entities/Meditatie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/Profesor.class" afterPath="$PROJECT_DIR$/target/classes/Entities/Profesor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/Programare.class" afterPath="$PROJECT_DIR$/target/classes/Entities/Programare.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/Transactions.class" afterPath="$PROJECT_DIR$/target/classes/Entities/Transactions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Entities/User.class" afterPath="$PROJECT_DIR$/target/classes/Entities/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utils/Configuration.class" afterPath="$PROJECT_DIR$/target/classes/Utils/Configuration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utils/ConnectionController.class" afterPath="$PROJECT_DIR$/target/classes/Utils/ConnectionController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utils/DBConnection.class" afterPath="$PROJECT_DIR$/target/classes/Utils/DBConnection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online.war" afterPath="$PROJECT_DIR$/target/meditatii-online.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/TransactionController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/TransactionController.java" />
+    </list>
     <ignored path="Meditatii.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,37 +54,42 @@
       <file leaf-file-name="ServletMeditatie.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletMeditatie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+            <state relative-caret-position="85">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MeditatieController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MeditatieController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2465">
-              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
               <folding>
-                <element signature="method#endSession#0;class#MeditatieController#0" expanded="false" />
+                <element signature="method#AddNew#0;class#MeditatieController#0" expanded="false" />
+                <element signature="method#joinStud#0;class#MeditatieController#0" expanded="false" />
+                <element signature="method#joinProf#0;class#MeditatieController#0" expanded="false" />
+                <element signature="method#getbyid#0;class#MeditatieController#0" expanded="false" />
+                <element signature="method#getByProf#0;class#MeditatieController#0" expanded="false" />
                 <element signature="method#getByStud#0;class#MeditatieController#0" expanded="false" />
                 <element signature="method#getAll#0;class#MeditatieController#0" expanded="false" />
-                <marker date="1488422572287" expanded="true" signature="421:461" ph="select id fr... meditatii" />
-                <marker date="1488422572287" expanded="true" signature="421:462" ph="select id fr... meditatii" />
-                <marker date="1488422572287" expanded="true" signature="763:829" ph="insert into meditatii... " />
-                <marker date="1488422572287" expanded="true" signature="1348:1383" ph="select * fro... meditatii" />
-                <marker date="1488422572287" expanded="true" signature="1647:1727" ph="update medit... " />
-                <marker date="1488422572287" expanded="true" signature="2064:2120" ph="update medit... " />
-                <marker date="1488422572287" expanded="true" signature="2502:2537" ph="select * fro... meditatii" />
-                <marker date="1488422572287" expanded="true" signature="2804:2881" ph="update medit... " />
-                <marker date="1488422572287" expanded="true" signature="3218:3271" ph="update medit... " />
-                <marker date="1488422572287" expanded="true" signature="3580:3623" ph="update medit... " />
-                <marker date="1488422572287" expanded="true" signature="3927:3961" ph="select * fro... meditatii" />
-                <marker date="1488422572287" expanded="true" signature="4853:4892" ph="select * fro... meditatii" />
-                <marker date="1488422572287" expanded="true" signature="5830:5869" ph="select * fro... meditatii" />
-                <marker date="1488422572287" expanded="true" signature="6798:6821" ph="select * fro... meditatii" />
-                <marker date="1488422572287" expanded="true" signature="7695:7731" ph="select * fro... meditatii" />
+                <element signature="method#getByRoom#0;class#MeditatieController#0" expanded="false" />
+                <marker date="1488706149872" expanded="true" signature="421:461" ph="select id fr... meditatii" />
+                <marker date="1488706149872" expanded="true" signature="421:462" ph="select id fr... meditatii" />
+                <marker date="1488706149872" expanded="true" signature="763:829" ph="insert into meditatii... " />
+                <marker date="1488706149872" expanded="true" signature="1348:1383" ph="select * fro... meditatii" />
+                <marker date="1488706149872" expanded="true" signature="1647:1727" ph="update medit... " />
+                <marker date="1488706149872" expanded="true" signature="2064:2120" ph="update medit... " />
+                <marker date="1488706149872" expanded="true" signature="2502:2537" ph="select * fro... meditatii" />
+                <marker date="1488706149872" expanded="true" signature="2804:2881" ph="update medit... " />
+                <marker date="1488706149872" expanded="true" signature="3218:3271" ph="update medit... " />
+                <marker date="1488706149872" expanded="true" signature="3580:3623" ph="update medit... " />
+                <marker date="1488706149872" expanded="true" signature="3971:4005" ph="select * fro... meditatii" />
+                <marker date="1488706149872" expanded="true" signature="4897:4936" ph="select * fro... meditatii" />
+                <marker date="1488706149872" expanded="true" signature="5874:5913" ph="select * fro... meditatii" />
+                <marker date="1488706149872" expanded="true" signature="6842:6865" ph="select * fro... meditatii" />
+                <marker date="1488706149872" expanded="true" signature="7739:7775" ph="select * fro... meditatii" />
               </folding>
             </state>
           </provider>
@@ -72,63 +105,54 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ServletTransaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletTransaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ProgramareController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServletLogin.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletLogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfesorController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/ProfesorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Programare.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Programare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="612">
+              <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding>
-                <element signature="e#438#439#0" expanded="true" />
+                <element signature="method#New#0;class#ProgramareController#0" expanded="false" />
+                <element signature="method#getUpcommingP#0;class#ProgramareController#0" expanded="false" />
+                <element signature="method#getUpcommingS#0;class#ProgramareController#0" expanded="false" />
+                <element signature="method#getById#0;class#ProgramareController#0" expanded="false" />
+                <marker date="1488704800872" expanded="true" signature="598:683" ph="insert into programari... " />
+                <marker date="1488704800872" expanded="true" signature="1084:1125" ph="update progr... " />
+                <marker date="1488704800872" expanded="true" signature="1510:1562" ph="select * fro... programari" />
+                <marker date="1488704800872" expanded="true" signature="2739:2779" ph="select * fro... programari" />
+                <marker date="1488704800872" expanded="true" signature="3921:3956" ph="select * fro... programari" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/TransactionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+              <folding>
+                <element signature="method#getAll#0;class#TransactionController#0" expanded="false" />
+                <element signature="method#getByID#0;class#TransactionController#0" expanded="false" />
+                <marker date="1488706090735" expanded="true" signature="487:517" ph="select * fro... Users" />
+                <marker date="1488706090735" expanded="true" signature="978:1015" ph="update Users... " />
+                <marker date="1488706090735" expanded="true" signature="1413:1506" ph="INSERT into transactions... " />
+                <marker date="1488706090735" expanded="true" signature="1830:1863" ph="update trans... " />
+                <marker date="1488706090735" expanded="true" signature="1830:1884" ph="update Users... " />
+                <marker date="1488706090735" expanded="true" signature="2227:2274" ph="update trans... " />
+                <marker date="1488706090735" expanded="true" signature="2227:2276" ph="update trans... " />
+                <marker date="1488706090735" expanded="true" signature="2645:2688" ph="update trans... " />
+                <marker date="1488706090735" expanded="true" signature="3066:3092" ph="select * fro... transactions" />
+                <marker date="1488706090735" expanded="true" signature="3796:3833" ph="select * fro... transactions" />
               </folding>
             </state>
           </provider>
@@ -174,15 +198,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Entities/Transactions.java" />
         <option value="$PROJECT_DIR$/src/main/java/Apis/ServletTransaction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/TransactionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/Programare.java" />
         <option value="$PROJECT_DIR$/src/main/java/Apis/ServletMeditatie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controllers/ProfesorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Apis/ServletLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/TransactionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java" />
       </list>
     </option>
   </component>
@@ -242,7 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -348,10 +371,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -433,12 +452,30 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Meditatii">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -994,6 +1031,7 @@
       <workItem from="1488599053540" duration="288000" />
       <workItem from="1488619330637" duration="402000" />
       <workItem from="1488619766455" duration="274000" />
+      <workItem from="1488685524265" duration="9014000" />
     </task>
     <task id="LOCAL-00001" summary="Config update">
       <created>1487834582331</created>
@@ -1121,7 +1159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488620011652</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Config update">
+      <created>1488686406446</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1488686406446</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1133,22 +1178,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75761000" />
+    <option name="totallyTimeSpent" value="84775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5083333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.71443516" sideWeight="0.5104167" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.49166667" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30857742" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17677824" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.48958334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1164,7 +1210,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.496875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1204,7 +1249,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1508,40 +1553,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/TransactionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-          <folding>
-            <element signature="method#getAll#0;class#TransactionController#0" expanded="false" />
-            <element signature="method#getByID#0;class#TransactionController#0" expanded="false" />
-            <marker date="1488420019392" expanded="true" signature="487:517" ph="select * fro... Users" />
-            <marker date="1488420019392" expanded="true" signature="978:1015" ph="update Users... " />
-            <marker date="1488420019392" expanded="true" signature="1413:1506" ph="INSERT into transactions... " />
-            <marker date="1488420019392" expanded="true" signature="1830:1863" ph="update trans... " />
-            <marker date="1488420019392" expanded="true" signature="1830:1884" ph="update Users... " />
-            <marker date="1488420019392" expanded="true" signature="2227:2270" ph="update trans... " />
-            <marker date="1488420019392" expanded="true" signature="2670:2713" ph="update trans... " />
-            <marker date="1488420019392" expanded="true" signature="3091:3117" ph="select * fro... transactions" />
-            <marker date="1488420019392" expanded="true" signature="3821:3858" ph="select * fro... transactions" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Entities/Programare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
-            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="false" />
+            <element signature="e#329#330#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#383#384#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
+            <element signature="e#630#631#0" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#691#692#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#833#834#0" expanded="false" />
+            <element signature="e#876#877#0" expanded="false" />
+            <element signature="e#914#915#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
+            <element signature="e#1022#1023#0" expanded="false" />
+            <element signature="e#1062#1063#0" expanded="false" />
+            <element signature="e#1093#1094#0" expanded="false" />
+            <element signature="e#1120#1121#0" expanded="false" />
+            <element signature="e#1160#1161#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1222#1223#0" expanded="false" />
+            <element signature="e#1251#1252#0" expanded="false" />
+            <element signature="e#1292#1293#0" expanded="false" />
+            <element signature="e#1328#1329#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1554,57 +1600,6 @@
             <element signature="e#1184#1185#0" expanded="false" />
             <element signature="e#1222#1223#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletMeditatie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding>
-            <element signature="method#endSession#0;class#MeditatieController#0" expanded="false" />
-            <element signature="method#getByStud#0;class#MeditatieController#0" expanded="false" />
-            <element signature="method#getAll#0;class#MeditatieController#0" expanded="false" />
-            <marker date="1488422572287" expanded="true" signature="421:461" ph="select id fr... meditatii" />
-            <marker date="1488422572287" expanded="true" signature="421:462" ph="select id fr... meditatii" />
-            <marker date="1488422572287" expanded="true" signature="763:829" ph="insert into meditatii... " />
-            <marker date="1488422572287" expanded="true" signature="1348:1383" ph="select * fro... meditatii" />
-            <marker date="1488422572287" expanded="true" signature="1647:1727" ph="update medit... " />
-            <marker date="1488422572287" expanded="true" signature="2064:2120" ph="update medit... " />
-            <marker date="1488422572287" expanded="true" signature="2502:2537" ph="select * fro... meditatii" />
-            <marker date="1488422572287" expanded="true" signature="2804:2881" ph="update medit... " />
-            <marker date="1488422572287" expanded="true" signature="3218:3271" ph="update medit... " />
-            <marker date="1488422572287" expanded="true" signature="3580:3623" ph="update medit... " />
-            <marker date="1488422572287" expanded="true" signature="3927:3961" ph="select * fro... meditatii" />
-            <marker date="1488422572287" expanded="true" signature="4853:4892" ph="select * fro... meditatii" />
-            <marker date="1488422572287" expanded="true" signature="5830:5869" ph="select * fro... meditatii" />
-            <marker date="1488422572287" expanded="true" signature="6798:6821" ph="select * fro... meditatii" />
-            <marker date="1488422572287" expanded="true" signature="7695:7731" ph="select * fro... meditatii" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="255" selection-start-line="36" selection-start-column="255" selection-end-line="36" selection-end-column="255" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1628,6 +1623,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1227#1228#0" expanded="false" />
+            <element signature="e#1269#1270#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1640,19 +1657,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="244">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletMeditatie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="36" column="255" selection-start-line="36" selection-start-column="255" selection-end-line="36" selection-end-column="255" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/TransactionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <element signature="method#getAll#0;class#TransactionController#0" expanded="false" />
+            <element signature="method#getByID#0;class#TransactionController#0" expanded="false" />
+            <marker date="1488706090735" expanded="true" signature="487:517" ph="select * fro... Users" />
+            <marker date="1488706090735" expanded="true" signature="978:1015" ph="update Users... " />
+            <marker date="1488706090735" expanded="true" signature="1413:1506" ph="INSERT into transactions... " />
+            <marker date="1488706090735" expanded="true" signature="1830:1863" ph="update trans... " />
+            <marker date="1488706090735" expanded="true" signature="1830:1884" ph="update Users... " />
+            <marker date="1488706090735" expanded="true" signature="2227:2274" ph="update trans... " />
+            <marker date="1488706090735" expanded="true" signature="2227:2276" ph="update trans... " />
+            <marker date="1488706090735" expanded="true" signature="2645:2688" ph="update trans... " />
+            <marker date="1488706090735" expanded="true" signature="3066:3092" ph="select * fro... transactions" />
+            <marker date="1488706090735" expanded="true" signature="3796:3833" ph="select * fro... transactions" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding>
+            <element signature="method#New#0;class#ProgramareController#0" expanded="false" />
+            <element signature="method#getUpcommingP#0;class#ProgramareController#0" expanded="false" />
+            <element signature="method#getUpcommingS#0;class#ProgramareController#0" expanded="false" />
+            <element signature="method#getById#0;class#ProgramareController#0" expanded="false" />
+            <marker date="1488704800872" expanded="true" signature="598:683" ph="insert into programari... " />
+            <marker date="1488704800872" expanded="true" signature="1084:1125" ph="update progr... " />
+            <marker date="1488704800872" expanded="true" signature="1510:1562" ph="select * fro... programari" />
+            <marker date="1488704800872" expanded="true" signature="2739:2779" ph="select * fro... programari" />
+            <marker date="1488704800872" expanded="true" signature="3921:3956" ph="select * fro... programari" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+          <folding>
+            <element signature="method#AddNew#0;class#MeditatieController#0" expanded="false" />
+            <element signature="method#joinStud#0;class#MeditatieController#0" expanded="false" />
+            <element signature="method#joinProf#0;class#MeditatieController#0" expanded="false" />
+            <element signature="method#getbyid#0;class#MeditatieController#0" expanded="false" />
+            <element signature="method#getByProf#0;class#MeditatieController#0" expanded="false" />
+            <element signature="method#getByStud#0;class#MeditatieController#0" expanded="false" />
+            <element signature="method#getAll#0;class#MeditatieController#0" expanded="false" />
+            <element signature="method#getByRoom#0;class#MeditatieController#0" expanded="false" />
+            <marker date="1488706149872" expanded="true" signature="421:461" ph="select id fr... meditatii" />
+            <marker date="1488706149872" expanded="true" signature="421:462" ph="select id fr... meditatii" />
+            <marker date="1488706149872" expanded="true" signature="763:829" ph="insert into meditatii... " />
+            <marker date="1488706149872" expanded="true" signature="1348:1383" ph="select * fro... meditatii" />
+            <marker date="1488706149872" expanded="true" signature="1647:1727" ph="update medit... " />
+            <marker date="1488706149872" expanded="true" signature="2064:2120" ph="update medit... " />
+            <marker date="1488706149872" expanded="true" signature="2502:2537" ph="select * fro... meditatii" />
+            <marker date="1488706149872" expanded="true" signature="2804:2881" ph="update medit... " />
+            <marker date="1488706149872" expanded="true" signature="3218:3271" ph="update medit... " />
+            <marker date="1488706149872" expanded="true" signature="3580:3623" ph="update medit... " />
+            <marker date="1488706149872" expanded="true" signature="3971:4005" ph="select * fro... meditatii" />
+            <marker date="1488706149872" expanded="true" signature="4897:4936" ph="select * fro... meditatii" />
+            <marker date="1488706149872" expanded="true" signature="5874:5913" ph="select * fro... meditatii" />
+            <marker date="1488706149872" expanded="true" signature="6842:6865" ph="select * fro... meditatii" />
+            <marker date="1488706149872" expanded="true" signature="7739:7775" ph="select * fro... meditatii" />
+          </folding>
         </state>
       </provider>
     </entry>

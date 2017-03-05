@@ -1,8 +1,12 @@
 package Controllers;
 
+import Entities.Materie;
+import Entities.Meditatie;
 import Entities.Programare;
+import Entities.User;
 import Utils.ConnectionController;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -95,6 +99,46 @@ System.out.println(t+"----------"+getFromString(rs.getString("time")));
 System.out.println(ex);
         }
         return list;
+    }
+    public static  Programare getById(int id){
+        Programare p=new Programare();
+        PreparedStatement pst;
+        ResultSet rs;
+        try{
+        pst=conn.prepareStatement("select * from programari where id=?");
+        pst.setInt(1,id);
+        rs=pst.executeQuery();
+        while(rs.next()){
+
+
+                p.setId(rs.getInt("id"));
+                p.setId_prof(rs.getInt("id_prof"));
+                p.setId_elev(rs.getInt("id_elev"));
+                p.setDuration(rs.getInt("duration"));
+                p.setTime(rs.getString("time"));
+                p.setStatus(rs.getInt("status"));
+                p.setP(ProfesorController.getById(rs.getInt("id_prof")));
+                p.setRoom(rs.getInt("room"));
+
+            }
+
+    }catch(Exception ex){
+        System.out.println(ex);
+    }
+
+
+        return p;
+    }
+    public static int GetPriceByRoom(int room){
+        int credits=0;
+        PreparedStatement pst;
+        ResultSet rs;
+        Meditatie m =MeditatieController.getByRoom(room);
+        User p=UserController.GetByID(m.getId_prof());
+        Programare prog=getById(m.getRoom());
+        Materie mat=MaterieController.getByID(Integer.parseInt(m.getStudent_key().split("-")[3]));
+credits=(int)mat.getMultiplier()*p.getRate()*(Integer.parseInt(m.getStudent_key().split("-")[3])/60);
+        return credits;
     }
 
 }

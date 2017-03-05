@@ -70,9 +70,9 @@ public class TransactionController extends ConnectionController {
     public static void UpdateStatus(int id,int status){
         if(status==1) {// 1= procesat
             try {
-                pst = conn.prepareStatement("update transactions set status=? where id=?");
+                pst = conn.prepareStatement("update transactions set status=? where id like %_"+id);
                 pst.setInt(1, status);
-                pst.setInt(2, id);
+
                 pst.executeUpdate();
             } catch (Exception ex) {
 

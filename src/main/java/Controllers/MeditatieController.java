@@ -110,6 +110,7 @@ public class MeditatieController extends ConnectionController{
         }catch(Exception ex){
 
         }
+TransactionController.UpdateStatus(room,1);
     }
     public static Meditatie getbyid(int id){
         Meditatie room=new Meditatie();
