@@ -84,11 +84,9 @@
       <artifactId>commons-compress</artifactId>
       <version>1.9</version>
     </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-parent</artifactId>
-      <version>33</version>
-    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-parent -->
+
+
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
