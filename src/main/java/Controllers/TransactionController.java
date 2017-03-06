@@ -77,8 +77,8 @@ public class TransactionController extends ConnectionController {
             } catch (Exception ex) {
 
             }
-            Transactions t=TransactionController.getByID(id);
-            payUser(t.getId_prof(),t.getCredits());
+            //Transactions t=TransactionController.getByID(id);
+           //payUser(t.getId_prof(),t.getCredits());
         }else if(status==2){
             try {
                 //2=anulat

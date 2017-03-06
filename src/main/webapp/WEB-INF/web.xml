@@ -36,10 +36,20 @@
         <filter-name>CorsFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-  <servlet>
-    <servlet-name>ServletLogin</servlet-name>
-    <servlet-class>Apis.ServletLogin</servlet-class>
-</servlet>
+    <servlet>
+        <servlet-name>ServletLogin</servlet-name>
+        <servlet-class>Apis.ServletLogin</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletSubscribers</servlet-name>
+        <servlet-class>Apis.ServletSubscribers</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ServletMesaj</servlet-name>
+        <servlet-class>Apis.ServletMesaj</servlet-class>
+    </servlet>
+
     <servlet>
         <servlet-name>ServletTransaction</servlet-name>
         <servlet-class>Apis.ServletTransaction</servlet-class>
@@ -69,6 +79,20 @@
         <servlet-name>ServletLogin</servlet-name>
         <url-pattern>/user/login/new</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletSubscribers</servlet-name>
+        <url-pattern>/sub/new</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServletMesaj</servlet-name>
+        <url-pattern>/mesaj/new</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletMesaj</servlet-name>
+        <url-pattern>/mesaj/get</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>ServletTransaction</servlet-name>
         <url-pattern>/transaction/sendf</url-pattern>
