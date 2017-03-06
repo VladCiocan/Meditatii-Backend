@@ -40,9 +40,14 @@ public static String sqlTime(){
         //format dd-mm-yyyy-hour-minute
 
         GregorianCalendar cal=new GregorianCalendar();
-        cal.set(GetInt(time.split("-")[2]),GetInt(time.split("-")[1])-1,GetInt(time.split("-")[0]),GetInt(time.split("-")[3]),GetInt(time.split("-")[4])+30);
-        Timestamp t=new Timestamp(cal.getTimeInMillis());
+        if(GetInt(time.split("-")[4])<30){
+            cal.set(GetInt(time.split("-")[2]),GetInt(time.split("-")[1])-1,GetInt(time.split("-")[0]),GetInt(time.split("-")[3]),GetInt(time.split("-")[4])+30);
+        }else{
+            cal.set(GetInt(time.split("-")[2]),GetInt(time.split("-")[1])-1,GetInt(time.split("-")[0]),GetInt(time.split("-")[3])+1,GetInt(time.split("-")[4])-30);
+        }
 
+        Timestamp t=new Timestamp(cal.getTimeInMillis());
+System.out.println(t.toString()+"-"+time+"------------<<<<<");
         return t;
     }
     public static String getFromTimestamp(Timestamp t){

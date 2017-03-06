@@ -30,7 +30,7 @@ public class ServletSubscribers extends HttpServlet {
         String path = request.getServletPath();
         System.out.println(path);
         if (path.equals(NEW)) {
-           
+
         }
 
 

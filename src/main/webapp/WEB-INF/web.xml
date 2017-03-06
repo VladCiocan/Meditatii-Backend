@@ -118,6 +118,11 @@
         <servlet-name>ServletProgramare</servlet-name>
         <url-pattern>/programare/cancel</url-pattern>
     </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>ServletProgramare</servlet-name>
+        <url-pattern>/programare/update</url-pattern>
+    </servlet-mapping>
+
     <servlet-mapping>
         <servlet-name>ServletProgramare</servlet-name>
         <url-pattern>/programare/profesor/upcoming</url-pattern>

@@ -47,7 +47,7 @@ System.out.println(ex);
         ArrayList<Programare> list=new ArrayList<Programare>();
         ResultSet rs;
         try{
-            pst=conn.prepareStatement("select * from programari where id_prof=? and time > "+sqlTime());
+            pst=conn.prepareStatement("select * from programari where id_prof=? ");
             pst.setInt(1,id_prof);
 
             rs=pst.executeQuery();
@@ -139,6 +139,16 @@ System.out.println(ex);
         Materie mat=MaterieController.getByID(Integer.parseInt(m.getStudent_key().split("-")[3]));
 credits=(int)mat.getMultiplier()*p.getRate()*(Integer.parseInt(m.getStudent_key().split("-")[3])/60);
         return credits;
+    }
+    public static void Update(int id,int status){
+        try{
+            pst=conn.prepareStatement("update programari set status=? where id=?");
+            pst.setInt(1,status);
+            pst.setInt(2,id);
+            pst.executeUpdate();
+        }catch (Exception ex){
+            System.out.println(ex);
+        }
     }
 
 }

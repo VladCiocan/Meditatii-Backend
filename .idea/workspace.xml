@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fd88653-f894-41a4-8e00-b8d98e33b94e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Apis/ServletMesaj.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Apis/ServletSubscribers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Controllers/MessageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entities/Messsage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entities/Subscriber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entities/SubscriberController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/MeditatieController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/MeditatieController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/ProgramareController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/ProgramareController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/TransactionController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/TransactionController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online.war" afterPath="$PROJECT_DIR$/target/meditatii-online.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/MeditatieController.class" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/MeditatieController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/ProgramareController.class" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/ProgramareController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/TransactionController.class" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/TransactionController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/TransactionController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/TransactionController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java" afterPath="$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Apis/ServletSubscribers.java" afterPath="$PROJECT_DIR$/src/main/java/Apis/ServletSubscribers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java" afterPath="$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/index.jsp" afterPath="$PROJECT_DIR$/target/meditatii-online/index.jsp" />
     </list>
     <ignored path="Meditatii.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,74 +36,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServletMeditatie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletMeditatie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeditatieController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-              <folding>
-                <element signature="method#AddNew#0;class#MeditatieController#0" expanded="false" />
-                <element signature="method#joinStud#0;class#MeditatieController#0" expanded="false" />
-                <element signature="method#joinProf#0;class#MeditatieController#0" expanded="false" />
-                <element signature="method#getbyid#0;class#MeditatieController#0" expanded="false" />
-                <element signature="method#getByProf#0;class#MeditatieController#0" expanded="false" />
-                <element signature="method#getByStud#0;class#MeditatieController#0" expanded="false" />
-                <element signature="method#getAll#0;class#MeditatieController#0" expanded="false" />
-                <element signature="method#getByRoom#0;class#MeditatieController#0" expanded="false" />
-                <marker date="1488706149872" expanded="true" signature="421:461" ph="select id fr... meditatii" />
-                <marker date="1488706149872" expanded="true" signature="421:462" ph="select id fr... meditatii" />
-                <marker date="1488706149872" expanded="true" signature="763:829" ph="insert into meditatii... " />
-                <marker date="1488706149872" expanded="true" signature="1348:1383" ph="select * fro... meditatii" />
-                <marker date="1488706149872" expanded="true" signature="1647:1727" ph="update medit... " />
-                <marker date="1488706149872" expanded="true" signature="2064:2120" ph="update medit... " />
-                <marker date="1488706149872" expanded="true" signature="2502:2537" ph="select * fro... meditatii" />
-                <marker date="1488706149872" expanded="true" signature="2804:2881" ph="update medit... " />
-                <marker date="1488706149872" expanded="true" signature="3218:3271" ph="update medit... " />
-                <marker date="1488706149872" expanded="true" signature="3580:3623" ph="update medit... " />
-                <marker date="1488706149872" expanded="true" signature="3971:4005" ph="select * fro... meditatii" />
-                <marker date="1488706149872" expanded="true" signature="4897:4936" ph="select * fro... meditatii" />
-                <marker date="1488706149872" expanded="true" signature="5874:5913" ph="select * fro... meditatii" />
-                <marker date="1488706149872" expanded="true" signature="6842:6865" ph="select * fro... meditatii" />
-                <marker date="1488706149872" expanded="true" signature="7739:7775" ph="select * fro... meditatii" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServletProgramare.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="36" column="255" selection-start-line="36" selection-start-column="255" selection-end-line="36" selection-end-column="255" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServletTransaction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletTransaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="21" column="59" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MessageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/MessageController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,6 +48,49 @@
                 <marker date="1488776688167" expanded="true" signature="930:969" ph="update messa... " />
                 <marker date="1488776688167" expanded="true" signature="1340:1388" ph="select * fro... messages" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletProgramare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="46" column="109" selection-start-line="46" selection-start-column="109" selection-end-line="46" selection-end-column="109" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProgramareController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="145" column="31" selection-start-line="145" selection-start-column="31" selection-end-line="145" selection-end-column="31" />
+              <folding>
+                <element signature="method#New#0;class#ProgramareController#0" expanded="false" />
+                <element signature="method#getUpcommingP#0;class#ProgramareController#0" expanded="false" />
+                <element signature="method#getUpcommingS#0;class#ProgramareController#0" expanded="false" />
+                <element signature="method#getById#0;class#ProgramareController#0" expanded="false" />
+                <element signature="method#GetPriceByRoom#0;class#ProgramareController#0" expanded="false" />
+                <marker date="1488795418907" expanded="true" signature="598:683" ph="insert into programari... " />
+                <marker date="1488795418907" expanded="true" signature="1084:1125" ph="update progr... " />
+                <marker date="1488795418907" expanded="true" signature="1510:1550" ph="select * fro... programari" />
+                <marker date="1488795418907" expanded="true" signature="1510:1551" ph="select * fro... programari" />
+                <marker date="1488795418907" expanded="true" signature="2718:2758" ph="select * fro... programari" />
+                <marker date="1488795418907" expanded="true" signature="3900:3935" ph="select * fro... programari" />
+                <marker date="1488795418907" expanded="true" signature="5165:5206" ph="update progr... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="45" column="131" selection-start-line="45" selection-start-column="131" selection-end-line="45" selection-end-column="131" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,21 +140,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletSubscribers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServletSubscribers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletSubscribers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="374">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
+            <state relative-caret-position="188">
+              <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -231,11 +211,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Apis/ServletTransaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/Programare.java" />
         <option value="$PROJECT_DIR$/src/main/java/Apis/ServletMeditatie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controllers/ProfesorController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Apis/ServletLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controllers/TransactionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/Messsage.java" />
@@ -243,8 +220,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Apis/ServletMesaj.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/Subscriber.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entities/SubscriberController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Apis/ServletSubscribers.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -1074,7 +1055,7 @@
       <workItem from="1488619330637" duration="402000" />
       <workItem from="1488619766455" duration="274000" />
       <workItem from="1488685524265" duration="9052000" />
-      <workItem from="1488775453971" duration="3382000" />
+      <workItem from="1488775453971" duration="5629000" />
     </task>
     <task id="LOCAL-00001" summary="Config update">
       <created>1487834582331</created>
@@ -1216,7 +1197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488706187738</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Config update">
+      <created>1488793247438</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1488793247438</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1228,7 +1216,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88195000" />
+    <option name="totallyTimeSpent" value="90442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1244,12 +1232,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.48958334" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5512552" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5156904" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4755245" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5244755" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5244755" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1308,13 +1296,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/ProfesorController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1652,34 +1633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="255" selection-start-line="36" selection-start-column="255" selection-end-line="36" selection-end-column="255" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-          <folding>
-            <element signature="method#New#0;class#ProgramareController#0" expanded="false" />
-            <element signature="method#getUpcommingP#0;class#ProgramareController#0" expanded="false" />
-            <element signature="method#getUpcommingS#0;class#ProgramareController#0" expanded="false" />
-            <element signature="method#getById#0;class#ProgramareController#0" expanded="false" />
-            <marker date="1488704800872" expanded="true" signature="598:683" ph="insert into programari... " />
-            <marker date="1488704800872" expanded="true" signature="1084:1125" ph="update progr... " />
-            <marker date="1488704800872" expanded="true" signature="1510:1562" ph="select * fro... programari" />
-            <marker date="1488704800872" expanded="true" signature="2739:2779" ph="select * fro... programari" />
-            <marker date="1488704800872" expanded="true" signature="3921:3956" ph="select * fro... programari" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1765,14 +1718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1826,14 +1771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletMesaj.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1844,8 +1781,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletSubscribers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="374">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="45" column="131" selection-start-line="45" selection-start-column="131" selection-end-line="45" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="145" column="31" selection-start-line="145" selection-start-column="31" selection-end-line="145" selection-end-column="31" />
+          <folding>
+            <element signature="method#New#0;class#ProgramareController#0" expanded="false" />
+            <element signature="method#getUpcommingP#0;class#ProgramareController#0" expanded="false" />
+            <element signature="method#getUpcommingS#0;class#ProgramareController#0" expanded="false" />
+            <element signature="method#getById#0;class#ProgramareController#0" expanded="false" />
+            <element signature="method#GetPriceByRoom#0;class#ProgramareController#0" expanded="false" />
+            <marker date="1488795418907" expanded="true" signature="598:683" ph="insert into programari... " />
+            <marker date="1488795418907" expanded="true" signature="1084:1125" ph="update progr... " />
+            <marker date="1488795418907" expanded="true" signature="1510:1550" ph="select * fro... programari" />
+            <marker date="1488795418907" expanded="true" signature="1510:1551" ph="select * fro... programari" />
+            <marker date="1488795418907" expanded="true" signature="2718:2758" ph="select * fro... programari" />
+            <marker date="1488795418907" expanded="true" signature="3900:3935" ph="select * fro... programari" />
+            <marker date="1488795418907" expanded="true" signature="5165:5206" ph="update progr... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="46" column="109" selection-start-line="46" selection-start-column="109" selection-end-line="46" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="122" column="39" selection-start-line="122" selection-start-column="39" selection-end-line="122" selection-end-column="39" />
           <folding />
         </state>
       </provider>
