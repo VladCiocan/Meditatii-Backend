@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fd88653-f894-41a4-8e00-b8d98e33b94e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Controllers/UniqueIDController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Entities/UniqueID.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Apis/ServletProgramare.class" afterPath="$PROJECT_DIR$/target/classes/Apis/ServletProgramare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/ProfesorController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/ProfesorController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/ProgramareController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/ProgramareController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Utils/ConnectionController.class" afterPath="$PROJECT_DIR$/target/classes/Utils/ConnectionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online.war" afterPath="$PROJECT_DIR$/target/meditatii-online.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Apis/ServletProgramare.class" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Apis/ServletProgramare.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/ProfesorController.class" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/ProfesorController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/ProgramareController.class" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/ProgramareController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Utils/ConnectionController.class" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Utils/ConnectionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Apis/ServletLogin.java" afterPath="$PROJECT_DIR$/src/main/java/Apis/ServletLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Apis/ServletMesaj.java" afterPath="$PROJECT_DIR$/src/main/java/Apis/ServletMesaj.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java" afterPath="$PROJECT_DIR$/src/main/java/Apis/ServletProgramare.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/MeditatieController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/MessageController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/MessageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/ProfesorController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/ProfesorController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/ProgramareController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Entities/Messsage.java" afterPath="$PROJECT_DIR$/src/main/java/Entities/Messsage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java" afterPath="$PROJECT_DIR$/src/main/java/Utils/ConnectionController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Apis/ServletLogin.class" afterPath="$PROJECT_DIR$/target/classes/Apis/ServletLogin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/MeditatieController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/MeditatieController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/UserController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Apis/ServletLogin.class" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Apis/ServletLogin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/MeditatieController.class" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/MeditatieController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/UserController.class" afterPath="$PROJECT_DIR$/target/meditatii-online/WEB-INF/classes/Controllers/UserController.class" />
     </list>
     <ignored path="Meditatii.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1100,7 +1082,7 @@
       <workItem from="1488775453971" duration="8009000" />
       <workItem from="1488859765332" duration="4694000" />
       <workItem from="1488883538783" duration="1708000" />
-      <workItem from="1488929022726" duration="10020000" />
+      <workItem from="1488929022726" duration="10061000" />
     </task>
     <task id="LOCAL-00001" summary="Config update">
       <created>1487834582331</created>
@@ -1256,7 +1238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488795506756</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Config update">
+      <created>1488945000227</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1488945000227</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1268,11 +1257,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109244000" />
+    <option name="totallyTimeSpent" value="109285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1284,7 +1273,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.48958334" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23012552" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23012552" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
