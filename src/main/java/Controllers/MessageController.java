@@ -33,19 +33,21 @@ public class MessageController extends ConnectionController {
 pst=conn.prepareStatement("update messages set status=? where id=?");
             pst.setInt(1,1);
             pst.setInt(2,id);
+            pst.executeUpdate();
         }catch (Exception ex){
             System.out.println(ex);
         }
     }
-    public static ArrayList<Messsage> getUnread(int room){
+    public static ArrayList<Messsage> getUnread(int room,int id){
         ArrayList<Messsage> list=new ArrayList<Messsage>();
         PreparedStatement pst;
         ResultSet rs;
         try{
 
-            pst=conn.prepareStatement("select * from messages where room=? and status=?");
+            pst=conn.prepareStatement("select * from messages where room=? and status=? and id=?");
             pst.setInt(1,room);
             pst.setInt(2,0);
+            pst.setInt(3,id);
             rs=pst.executeQuery();
             while(rs.next()){
                 Messsage m =new Messsage();
@@ -54,6 +56,7 @@ pst=conn.prepareStatement("update messages set status=? where id=?");
                 m.setDate(rs.getTimestamp("timp"));
                 m.setMessage(rs.getString("mesaj"));
                 m.setUser(rs.getInt("user_id"));
+                m.setU(UserController.GetByID(rs.getInt("user_id")));
                 list.add(m);
 
             }

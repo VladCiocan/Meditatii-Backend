@@ -1,5 +1,6 @@
 package Controllers;
 
+import Entities.UniqueID;
 import Entities.User;
 import Utils.ConnectionController;
 
@@ -67,7 +68,7 @@ public class UserController extends ConnectionController {
             logger.warn(ex.toString());
         }
     }
-    public static User login(String email,String pass){
+    public static UniqueID login(String email, String pass){
         User u =new User();
         ResultSet rs;
         try{
@@ -88,8 +89,8 @@ public class UserController extends ConnectionController {
         }catch (Exception ex){
             logger.warn(ex.toString());
         }
+        return UniqueIDController.New(u.getId());
 
-        return u;
     }
     public static User GetByID(int id){
         User user =new User();

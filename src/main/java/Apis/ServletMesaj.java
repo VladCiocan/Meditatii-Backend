@@ -33,8 +33,8 @@ public class ServletMesaj extends HttpServlet {
         if (path.equals(NEW)) {
            MessageController.newMesssage(Integer.parseInt(request.getParameter("room")),Integer.parseInt(request.getParameter("id")),request.getParameter("message"));
         }
-        if (path.equals(NEW)) {
-            ArrayList<Messsage> messages= MessageController.getUnread(Integer.parseInt(request.getParameter("room")));
+        if (path.equals(GET)) {
+            ArrayList<Messsage> messages= MessageController.getUnread(Integer.parseInt(request.getParameter("room")),Integer.parseInt(request.getParameter("id")));
             String json = new Gson().toJson(messages);
             response.setContentType("application/json");
             response.setCharacterEncoding("UTF-8");

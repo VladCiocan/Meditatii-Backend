@@ -168,7 +168,7 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ServletMeditatie</servlet-name>
-        <url-pattern>/meditatie/*ends</url-pattern>
+        <url-pattern>/meditatie/ends</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ServletMeditatie</servlet-name>

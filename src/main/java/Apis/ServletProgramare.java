@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class ServletProgramare extends HttpServlet{
     private static final String NEW = "/programare/new";
     private static final String CANCEL = "/programare/cancel";
-    private static final String APROBA = "/programare/aproba";
+    private static final String APROBA = "/programare/update";
 
     private static final String GETUPPROF = "/programare/profesor/upcoming";
     private static final String GETUPSTUD = "/programare/student/upcoming";
@@ -44,7 +44,8 @@ public class ServletProgramare extends HttpServlet{
 
         }
         if(path.equals(APROBA)){
-            ProgramareController.Update(Integer.parseInt(request.getParameter("id")),Integer.parseInt("status"));
+            ProgramareController.Update(Integer.parseInt(request.getParameter("id")),Integer.parseInt(request.getParameter("status")));
+            System.out.println(Integer.parseInt(request.getParameter("id"))+"-"+Integer.parseInt("status"));
         }
         if (path.equals(GETUPPROF)) {
             ArrayList<Programare> list=ProgramareController.getUpcommingP(Integer.parseInt(request.getParameter("id_p")));

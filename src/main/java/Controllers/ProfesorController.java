@@ -27,6 +27,7 @@ System.out.println(ex);
         }
     }
     public static void Update(int id,int mat, String desc){
+
         try{
             pst=conn.prepareStatement("update profesor set materie=?,descriere=? where id=?");
             pst.setInt(1,mat);

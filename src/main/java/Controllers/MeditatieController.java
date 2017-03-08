@@ -42,9 +42,11 @@ public class MeditatieController extends ConnectionController{
     public static void joinStud(int room,String camKey ,int duration){
         int roomReady=0;
         ResultSet rs;
+        System.out.println(endSessionTime(getCurent(),duration));
         try{
             pst=conn.prepareStatement("select * from meditatii where room="+room);
             rs=pst.executeQuery();
+
             while(rs.next()){
                 if(rs.getString("prof_key")!=null){
                     roomReady=1;
@@ -52,8 +54,8 @@ public class MeditatieController extends ConnectionController{
             }
             if (roomReady>0){
                 pst=conn.prepareStatement("update meditatii set start_time=?,end_time=?,student_key=?,status=? where room=?");
-                pst.setTimestamp(1,getCurent());
-                pst.setTimestamp(2,endSessionTime(getCurent(),duration));
+                pst.setTimestamp(1,getFromString(ProgramareController.getByroom(room).getTime()));
+                pst.setTimestamp(2,endSessionTime(getFromString(ProgramareController.getByroom(room).getTime()),duration));
                 pst.setString(3,camKey);
                 pst.setInt(4,4);
                 pst.setInt(5,room);
@@ -66,7 +68,9 @@ public class MeditatieController extends ConnectionController{
                 pst.setInt(3,room);
                 pst.executeUpdate();
             }
-        }catch(Exception ex){
+        }catch(NullPointerException ex){
+            System.out.println(ex);
+        }catch (Exception ex){
 
         }
     }
@@ -98,7 +102,7 @@ public class MeditatieController extends ConnectionController{
                 pst.executeUpdate();
             }
         }catch(Exception ex){
-
+            System.out.println(ex);
         }
     }
     public static void endSession(int room){
@@ -108,7 +112,7 @@ public class MeditatieController extends ConnectionController{
             pst.setInt(2,room);
             pst.executeUpdate();
         }catch(Exception ex){
-
+            System.out.println(ex);
         }
 TransactionController.UpdateStatus(room,1);
     }

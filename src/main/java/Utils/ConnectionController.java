@@ -29,8 +29,8 @@ public static String sqlTime(){
         return timestamp;
     }
     public static Timestamp endSessionTime(Timestamp t, int duration){
-        Timestamp endT = null;
-        endT.setTime(t.getTime()+(duration*60000));
+        Timestamp endT = t;
+        endT.setTime(t.getTime()+(long)(duration*60000));
         return endT;
     }
     public static int GetInt(String x){
@@ -47,7 +47,7 @@ public static String sqlTime(){
         }
 
         Timestamp t=new Timestamp(cal.getTimeInMillis());
-System.out.println(t.toString()+"-"+time+"------------<<<<<");
+
         return t;
     }
     public static String getFromTimestamp(Timestamp t){

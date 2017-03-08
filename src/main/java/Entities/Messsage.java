@@ -12,6 +12,15 @@ public class Messsage {
     private Timestamp date;
     private String message;
     private int status;
+    private User u;
+
+    public User getU() {
+        return u;
+    }
+
+    public void setU(User u) {
+        this.u = u;
+    }
 
     public int getId() {
         return id;

@@ -53,7 +53,7 @@ System.out.println(ex);
             rs=pst.executeQuery();
             while(rs.next()){
                 Timestamp t=getCurent();
-                System.out.println(t.toString()+"-"+rs.getString("time"));
+
                 if(t.before(getFromString(rs.getString("time")))) {
                     Programare p = new Programare();
                     p.setId(rs.getInt("id"));
@@ -81,7 +81,7 @@ System.out.println(ex);
             rs=pst.executeQuery();
             while(rs.next()){
                 Timestamp t=getCurent();
-System.out.println(t+"----------"+getFromString(rs.getString("time")));
+
                 if(t.before(getFromString(rs.getString("time")))) {
                     Programare pr = new Programare();
                     pr.setId(rs.getInt("id"));
@@ -105,10 +105,10 @@ System.out.println(ex);
         PreparedStatement pst;
         ResultSet rs;
         try{
-        pst=conn.prepareStatement("select * from programari where id=?");
-        pst.setInt(1,id);
-        rs=pst.executeQuery();
-        while(rs.next()){
+            pst=conn.prepareStatement("select * from programari where id=?");
+            pst.setInt(1,id);
+            rs=pst.executeQuery();
+            while(rs.next()){
 
 
                 p.setId(rs.getInt("id"));
@@ -122,13 +122,43 @@ System.out.println(ex);
 
             }
 
-    }catch(Exception ex){
-        System.out.println(ex);
-    }
+        }catch(Exception ex){
+            System.out.println(ex);
+        }
 
 
         return p;
     }
+    public static  Programare getByroom(int room){
+        Programare p=new Programare();
+        PreparedStatement pst;
+        ResultSet rs;
+        try{
+            pst=conn.prepareStatement("select * from programari where room=?");
+            pst.setInt(1,room);
+            rs=pst.executeQuery();
+            while(rs.next()){
+
+
+                p.setId(rs.getInt("id"));
+                p.setId_prof(rs.getInt("id_prof"));
+                p.setId_elev(rs.getInt("id_elev"));
+                p.setDuration(rs.getInt("duration"));
+                p.setTime(rs.getString("time"));
+                p.setStatus(rs.getInt("status"));
+                p.setP(ProfesorController.getById(rs.getInt("id_prof")));
+                p.setRoom(rs.getInt("room"));
+
+            }
+
+        }catch(Exception ex){
+            System.out.println(ex);
+        }
+
+
+        return p;
+    }
+
     public static int GetPriceByRoom(int room){
         int credits=0;
         PreparedStatement pst;
@@ -141,11 +171,14 @@ credits=(int)mat.getMultiplier()*p.getRate()*(Integer.parseInt(m.getStudent_key(
         return credits;
     }
     public static void Update(int id,int status){
+        PreparedStatement pst;
+        System.out.println(id+"-"+status);
         try{
             pst=conn.prepareStatement("update programari set status=? where id=?");
             pst.setInt(1,status);
             pst.setInt(2,id);
             pst.executeUpdate();
+
         }catch (Exception ex){
             System.out.println(ex);
         }

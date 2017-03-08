@@ -1,6 +1,7 @@
 package Apis;
 
 import Controllers.UserController;
+import Entities.UniqueID;
 import Entities.User;
 import com.google.gson.Gson;
 
@@ -36,8 +37,8 @@ public class ServletLogin extends HttpServlet {
 //modif test
         }
         if(path.equals(LOGIN)){
-            User u=UserController.login(request.getParameter("email"),request.getParameter("pass"));
-            if(u.getId()>0){
+            UniqueID u=UserController.login(request.getParameter("email"),request.getParameter("pass"));
+            if(u.getUid().getId()>0){
                 String json = new Gson().toJson(u);
                 response.setContentType("application/json");
                 response.setCharacterEncoding("UTF-8");
