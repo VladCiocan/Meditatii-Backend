@@ -1,6 +1,7 @@
 package Apis;
 
 import Controllers.MessageController;
+import Controllers.SubscriberController;
 import Entities.Messsage;
 import com.google.gson.Gson;
 
@@ -30,7 +31,7 @@ public class ServletSubscribers extends HttpServlet {
         String path = request.getServletPath();
         System.out.println(path);
         if (path.equals(NEW)) {
-
+        	SubscriberController.addNew(request.getParameter("email"));
         }
 
 
