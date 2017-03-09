@@ -44,7 +44,7 @@ pst=conn.prepareStatement("update messages set status=? where id=?");
         ResultSet rs;
         try{
 
-            pst=conn.prepareStatement("select * from messages where room=? and status=? and id=?");
+            pst=conn.prepareStatement("select * from messages where room=? and status=? and user_id=?");
             pst.setInt(1,room);
             pst.setInt(2,0);
             pst.setInt(3,id);

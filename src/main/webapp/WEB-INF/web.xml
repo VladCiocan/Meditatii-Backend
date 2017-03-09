@@ -90,6 +90,22 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>ServletMesaj</servlet-name>
+        <url-pattern>/mesaj/notif/get</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletMesaj</servlet-name>
+        <url-pattern>/mesaj/notif/new</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletMesaj</servlet-name>
+        <url-pattern>/mesaj/notif/delete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletMesaj</servlet-name>
+        <url-pattern>/mesaj/admin/new</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletMesaj</servlet-name>
         <url-pattern>/mesaj/get</url-pattern>
     </servlet-mapping>
 
